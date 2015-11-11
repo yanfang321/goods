@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21295EBE1B9FBEF500B34556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EBD1B9FBEF500B34556 /* main.m */; };
+		21295EC11B9FBEF500B34556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EC01B9FBEF500B34556 /* AppDelegate.m */; };
+		21295EC41B9FBEF500B34556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EC31B9FBEF500B34556 /* ViewController.m */; };
+		21295EC71B9FBEF500B34556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21295EC51B9FBEF500B34556 /* Main.storyboard */; };
+		21295EC91B9FBEF500B34556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21295EC81B9FBEF500B34556 /* Images.xcassets */; };
+		21295ECC1B9FBEF500B34556 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21295ECA1B9FBEF500B34556 /* LaunchScreen.xib */; };
+		21295ED81B9FBEF500B34556 /* greedIslandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295ED71B9FBEF500B34556 /* greedIslandTests.m */; };
+		21295EEA1B9FC37100B34556 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21295EE81B9FC37100B34556 /* Bolts.framework */; };
+		21295EEB1B9FC37100B34556 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21295EE91B9FC37100B34556 /* Parse.framework */; };
+		21295EED1B9FC39300B34556 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21295EEC1B9FC39300B34556 /* AudioToolbox.framework */; };
+		21295EEF1B9FC3A200B34556 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21295EEE1B9FC3A200B34556 /* SystemConfiguration.framework */; };
+		21295EF11B9FC3B300B34556 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21295EF01B9FC3B300B34556 /* libsqlite3.dylib */; };
+		21295EF41B9FC87000B34556 /* storageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EF31B9FC87000B34556 /* storageMgr.m */; };
+		21295EF71B9FC90700B34556 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EF61B9FC90700B34556 /* Utilities.m */; };
+		21295EFA1B9FCAA200B34556 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EF91B9FCAA200B34556 /* RegisterViewController.m */; };
+		21295F001B9FCB8700B34556 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295EFF1B9FCB8700B34556 /* TabViewController.m */; };
+		21295F031B9FCBBF00B34556 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295F021B9FCBBF00B34556 /* HomeViewController.m */; };
+		21295F061B9FCBD100B34556 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21295F051B9FCBD100B34556 /* MineViewController.m */; };
+		21F906C11BA1140D00C39F58 /* IssueItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F906C01BA1140D00C39F58 /* IssueItemViewController.m */; };
+		21F906C41BA1143100C39F58 /* myitemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F906C31BA1143100C39F58 /* myitemViewController.m */; };
+		21F906C71BA114C800C39F58 /* itemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F906C61BA114C800C39F58 /* itemViewController.m */; };
+		756389591BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563894D1BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.m */; };
+		7563895A1BA663EE00C12A3E /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563894F1BA663EE00C12A3E /* ECSlidingAnimationController.m */; };
+		7563895B1BA663EE00C12A3E /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 756389521BA663EE00C12A3E /* ECSlidingInteractiveTransition.m */; };
+		7563895C1BA663EE00C12A3E /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 756389541BA663EE00C12A3E /* ECSlidingSegue.m */; };
+		7563895D1BA663EE00C12A3E /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756389561BA663EE00C12A3E /* ECSlidingViewController.m */; };
+		7563895E1BA663EE00C12A3E /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756389581BA663EE00C12A3E /* UIViewController+ECSlidingViewController.m */; };
+		756389631BA6670E00C12A3E /* leftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756389621BA6670E00C12A3E /* leftViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21295ED21B9FBEF500B34556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21295EB01B9FBEF500B34556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21295EB71B9FBEF500B34556;
+			remoteInfo = greedIsland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21295EB81B9FBEF500B34556 /* greedIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greedIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21295EBC1B9FBEF500B34556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21295EBD1B9FBEF500B34556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21295EBF1B9FBEF500B34556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21295EC01B9FBEF500B34556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21295EC21B9FBEF500B34556 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = greedIsland/ViewController.h; sourceTree = "<group>"; };
+		21295EC31B9FBEF500B34556 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = greedIsland/ViewController.m; sourceTree = "<group>"; };
+		21295EC61B9FBEF500B34556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21295EC81B9FBEF500B34556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21295ECB1B9FBEF500B34556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21295ED11B9FBEF500B34556 /* greedIslandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greedIslandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21295ED61B9FBEF500B34556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21295ED71B9FBEF500B34556 /* greedIslandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greedIslandTests.m; sourceTree = "<group>"; };
+		21295EE71B9FC1E000B34556 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		21295EE81B9FC37100B34556 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		21295EE91B9FC37100B34556 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		21295EEC1B9FC39300B34556 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		21295EEE1B9FC3A200B34556 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21295EF01B9FC3B300B34556 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		21295EF21B9FC87000B34556 /* storageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storageMgr.h; sourceTree = "<group>"; };
+		21295EF31B9FC87000B34556 /* storageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = storageMgr.m; sourceTree = "<group>"; };
+		21295EF51B9FC90700B34556 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		21295EF61B9FC90700B34556 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		21295EF81B9FCAA200B34556 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = greedIsland/RegisterViewController.h; sourceTree = "<group>"; };
+		21295EF91B9FCAA200B34556 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = greedIsland/RegisterViewController.m; sourceTree = "<group>"; };
+		21295EFE1B9FCB8700B34556 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabViewController.h; path = greedIsland/TabViewController.h; sourceTree = "<group>"; };
+		21295EFF1B9FCB8700B34556 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabViewController.m; path = greedIsland/TabViewController.m; sourceTree = "<group>"; };
+		21295F011B9FCBBF00B34556 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = greedIsland/HomeViewController.h; sourceTree = "<group>"; };
+		21295F021B9FCBBF00B34556 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = greedIsland/HomeViewController.m; sourceTree = "<group>"; };
+		21295F041B9FCBD100B34556 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = greedIsland/MineViewController.h; sourceTree = "<group>"; };
+		21295F051B9FCBD100B34556 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = greedIsland/MineViewController.m; sourceTree = "<group>"; };
+		21F906BF1BA1140D00C39F58 /* IssueItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IssueItemViewController.h; path = greedIsland/IssueItemViewController.h; sourceTree = "<group>"; };
+		21F906C01BA1140D00C39F58 /* IssueItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IssueItemViewController.m; path = greedIsland/IssueItemViewController.m; sourceTree = "<group>"; };
+		21F906C21BA1143100C39F58 /* myitemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myitemViewController.h; path = greedIsland/myitemViewController.h; sourceTree = "<group>"; };
+		21F906C31BA1143100C39F58 /* myitemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myitemViewController.m; path = greedIsland/myitemViewController.m; sourceTree = "<group>"; };
+		21F906C51BA114C800C39F58 /* itemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itemViewController.h; path = greedIsland/itemViewController.h; sourceTree = "<group>"; };
+		21F906C61BA114C800C39F58 /* itemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = itemViewController.m; path = greedIsland/itemViewController.m; sourceTree = "<group>"; };
+		7563894C1BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		7563894D1BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		7563894E1BA663EE00C12A3E /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		7563894F1BA663EE00C12A3E /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		756389501BA663EE00C12A3E /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		756389511BA663EE00C12A3E /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		756389521BA663EE00C12A3E /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		756389531BA663EE00C12A3E /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		756389541BA663EE00C12A3E /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		756389551BA663EE00C12A3E /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		756389561BA663EE00C12A3E /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		756389571BA663EE00C12A3E /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		756389581BA663EE00C12A3E /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		756389601BA664C800C12A3E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		756389611BA6670E00C12A3E /* leftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftViewController.h; sourceTree = "<group>"; };
+		756389621BA6670E00C12A3E /* leftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21295EB51B9FBEF500B34556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21295EF11B9FC3B300B34556 /* libsqlite3.dylib in Frameworks */,
+				21295EEF1B9FC3A200B34556 /* SystemConfiguration.framework in Frameworks */,
+				21295EED1B9FC39300B34556 /* AudioToolbox.framework in Frameworks */,
+				21295EEA1B9FC37100B34556 /* Bolts.framework in Frameworks */,
+				21295EEB1B9FC37100B34556 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21295ECE1B9FBEF500B34556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21295EAF1B9FBEF500B34556 = {
+			isa = PBXGroup;
+			children = (
+				21295EF01B9FC3B300B34556 /* libsqlite3.dylib */,
+				21295EEE1B9FC3A200B34556 /* SystemConfiguration.framework */,
+				21295EEC1B9FC39300B34556 /* AudioToolbox.framework */,
+				21295EE81B9FC37100B34556 /* Bolts.framework */,
+				21295EE91B9FC37100B34556 /* Parse.framework */,
+				21295EBA1B9FBEF500B34556 /* greedIsland */,
+				21295ED41B9FBEF500B34556 /* greedIslandTests */,
+				21295EB91B9FBEF500B34556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21295EB91B9FBEF500B34556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21295EB81B9FBEF500B34556 /* greedIsland.app */,
+				21295ED11B9FBEF500B34556 /* greedIslandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21295EBA1B9FBEF500B34556 /* greedIsland */ = {
+			isa = PBXGroup;
+			children = (
+				7563895F1BA6644A00C12A3E /* constant */,
+				21295EE51B9FBFEA00B34556 /* 3rd */,
+				21295EE41B9FBFAB00B34556 /* Model */,
+				21295EE31B9FBF6500B34556 /* Utllity */,
+				21295EE11B9FBF4200B34556 /* Controller */,
+				21295EE21B9FBF5900B34556 /* View */,
+				21295EBB1B9FBEF500B34556 /* Supporting Files */,
+			);
+			path = greedIsland;
+			sourceTree = "<group>";
+		};
+		21295EBB1B9FBEF500B34556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21295EBF1B9FBEF500B34556 /* AppDelegate.h */,
+				21295EC01B9FBEF500B34556 /* AppDelegate.m */,
+				21295EE71B9FC1E000B34556 /* PrefixHeader.pch */,
+				21295EBC1B9FBEF500B34556 /* Info.plist */,
+				21295EBD1B9FBEF500B34556 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21295ED41B9FBEF500B34556 /* greedIslandTests */ = {
+			isa = PBXGroup;
+			children = (
+				21295ED71B9FBEF500B34556 /* greedIslandTests.m */,
+				21295ED51B9FBEF500B34556 /* Supporting Files */,
+			);
+			path = greedIslandTests;
+			sourceTree = "<group>";
+		};
+		21295ED51B9FBEF500B34556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21295ED61B9FBEF500B34556 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21295EE11B9FBF4200B34556 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21295EC21B9FBEF500B34556 /* ViewController.h */,
+				21295EC31B9FBEF500B34556 /* ViewController.m */,
+				21295EF81B9FCAA200B34556 /* RegisterViewController.h */,
+				21295EF91B9FCAA200B34556 /* RegisterViewController.m */,
+				21295EFE1B9FCB8700B34556 /* TabViewController.h */,
+				21295EFF1B9FCB8700B34556 /* TabViewController.m */,
+				21295F011B9FCBBF00B34556 /* HomeViewController.h */,
+				21295F021B9FCBBF00B34556 /* HomeViewController.m */,
+				21295F041B9FCBD100B34556 /* MineViewController.h */,
+				21295F051B9FCBD100B34556 /* MineViewController.m */,
+				21F906BF1BA1140D00C39F58 /* IssueItemViewController.h */,
+				21F906C01BA1140D00C39F58 /* IssueItemViewController.m */,
+				21F906C21BA1143100C39F58 /* myitemViewController.h */,
+				21F906C31BA1143100C39F58 /* myitemViewController.m */,
+				21F906C51BA114C800C39F58 /* itemViewController.h */,
+				21F906C61BA114C800C39F58 /* itemViewController.m */,
+				756389611BA6670E00C12A3E /* leftViewController.h */,
+				756389621BA6670E00C12A3E /* leftViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		21295EE21B9FBF5900B34556 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21295EC51B9FBEF500B34556 /* Main.storyboard */,
+				21295EC81B9FBEF500B34556 /* Images.xcassets */,
+				21295ECA1B9FBEF500B34556 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		21295EE31B9FBF6500B34556 /* Utllity */ = {
+			isa = PBXGroup;
+			children = (
+				21295EF21B9FC87000B34556 /* storageMgr.h */,
+				21295EF31B9FC87000B34556 /* storageMgr.m */,
+				21295EF51B9FC90700B34556 /* Utilities.h */,
+				21295EF61B9FC90700B34556 /* Utilities.m */,
+			);
+			name = Utllity;
+			sourceTree = "<group>";
+		};
+		21295EE41B9FBFAB00B34556 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		21295EE51B9FBFEA00B34556 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				7563894B1BA663CE00C12A3E /*  ECSlidingViewController */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		7563894B1BA663CE00C12A3E /*  ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7563894C1BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.h */,
+				7563894D1BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.m */,
+				7563894E1BA663EE00C12A3E /* ECSlidingAnimationController.h */,
+				7563894F1BA663EE00C12A3E /* ECSlidingAnimationController.m */,
+				756389501BA663EE00C12A3E /* ECSlidingConstants.h */,
+				756389511BA663EE00C12A3E /* ECSlidingInteractiveTransition.h */,
+				756389521BA663EE00C12A3E /* ECSlidingInteractiveTransition.m */,
+				756389531BA663EE00C12A3E /* ECSlidingSegue.h */,
+				756389541BA663EE00C12A3E /* ECSlidingSegue.m */,
+				756389551BA663EE00C12A3E /* ECSlidingViewController.h */,
+				756389561BA663EE00C12A3E /* ECSlidingViewController.m */,
+				756389571BA663EE00C12A3E /* UIViewController+ECSlidingViewController.h */,
+				756389581BA663EE00C12A3E /* UIViewController+ECSlidingViewController.m */,
+			);
+			name = " ECSlidingViewController";
+			sourceTree = "<group>";
+		};
+		7563895F1BA6644A00C12A3E /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				756389601BA664C800C12A3E /* Constants.h */,
+			);
+			name = constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21295EB71B9FBEF500B34556 /* greedIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21295EDB1B9FBEF500B34556 /* Build configuration list for PBXNativeTarget "greedIsland" */;
+			buildPhases = (
+				21295EB41B9FBEF500B34556 /* Sources */,
+				21295EB51B9FBEF500B34556 /* Frameworks */,
+				21295EB61B9FBEF500B34556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = greedIsland;
+			productName = greedIsland;
+			productReference = 21295EB81B9FBEF500B34556 /* greedIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21295ED01B9FBEF500B34556 /* greedIslandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21295EDE1B9FBEF500B34556 /* Build configuration list for PBXNativeTarget "greedIslandTests" */;
+			buildPhases = (
+				21295ECD1B9FBEF500B34556 /* Sources */,
+				21295ECE1B9FBEF500B34556 /* Frameworks */,
+				21295ECF1B9FBEF500B34556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21295ED31B9FBEF500B34556 /* PBXTargetDependency */,
+			);
+			name = greedIslandTests;
+			productName = greedIslandTests;
+			productReference = 21295ED11B9FBEF500B34556 /* greedIslandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21295EB01B9FBEF500B34556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "王";
+				TargetAttributes = {
+					21295EB71B9FBEF500B34556 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					21295ED01B9FBEF500B34556 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 21295EB71B9FBEF500B34556;
+					};
+				};
+			};
+			buildConfigurationList = 21295EB31B9FBEF500B34556 /* Build configuration list for PBXProject "greedIsland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21295EAF1B9FBEF500B34556;
+			productRefGroup = 21295EB91B9FBEF500B34556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21295EB71B9FBEF500B34556 /* greedIsland */,
+				21295ED01B9FBEF500B34556 /* greedIslandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21295EB61B9FBEF500B34556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21295EC71B9FBEF500B34556 /* Main.storyboard in Resources */,
+				21295ECC1B9FBEF500B34556 /* LaunchScreen.xib in Resources */,
+				21295EC91B9FBEF500B34556 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21295ECF1B9FBEF500B34556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21295EB41B9FBEF500B34556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21295EC41B9FBEF500B34556 /* ViewController.m in Sources */,
+				21F906C71BA114C800C39F58 /* itemViewController.m in Sources */,
+				21295EFA1B9FCAA200B34556 /* RegisterViewController.m in Sources */,
+				21295EC11B9FBEF500B34556 /* AppDelegate.m in Sources */,
+				756389591BA663EE00C12A3E /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				7563895B1BA663EE00C12A3E /* ECSlidingInteractiveTransition.m in Sources */,
+				7563895C1BA663EE00C12A3E /* ECSlidingSegue.m in Sources */,
+				756389631BA6670E00C12A3E /* leftViewController.m in Sources */,
+				21295F061B9FCBD100B34556 /* MineViewController.m in Sources */,
+				7563895D1BA663EE00C12A3E /* ECSlidingViewController.m in Sources */,
+				21295EF41B9FC87000B34556 /* storageMgr.m in Sources */,
+				7563895E1BA663EE00C12A3E /* UIViewController+ECSlidingViewController.m in Sources */,
+				21295EBE1B9FBEF500B34556 /* main.m in Sources */,
+				21295F001B9FCB8700B34556 /* TabViewController.m in Sources */,
+				21F906C11BA1140D00C39F58 /* IssueItemViewController.m in Sources */,
+				21295EF71B9FC90700B34556 /* Utilities.m in Sources */,
+				7563895A1BA663EE00C12A3E /* ECSlidingAnimationController.m in Sources */,
+				21F906C41BA1143100C39F58 /* myitemViewController.m in Sources */,
+				21295F031B9FCBBF00B34556 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21295ECD1B9FBEF500B34556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21295ED81B9FBEF500B34556 /* greedIslandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21295ED31B9FBEF500B34556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21295EB71B9FBEF500B34556 /* greedIsland */;
+			targetProxy = 21295ED21B9FBEF500B34556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21295EC51B9FBEF500B34556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21295EC61B9FBEF500B34556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21295ECA1B9FBEF500B34556 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21295ECB1B9FBEF500B34556 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21295ED91B9FBEF500B34556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21295EDA1B9FBEF500B34556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21295EDC1B9FBEF500B34556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = greedIsland/PrefixHeader.pch;
+				INFOPLIST_FILE = greedIsland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21295EDD1B9FBEF500B34556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = greedIsland/PrefixHeader.pch;
+				INFOPLIST_FILE = greedIsland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21295EDF1B9FBEF500B34556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = greedIslandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greedIsland.app/greedIsland";
+			};
+			name = Debug;
+		};
+		21295EE01B9FBEF500B34556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = greedIslandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greedIsland.app/greedIsland";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21295EB31B9FBEF500B34556 /* Build configuration list for PBXProject "greedIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21295ED91B9FBEF500B34556 /* Debug */,
+				21295EDA1B9FBEF500B34556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21295EDB1B9FBEF500B34556 /* Build configuration list for PBXNativeTarget "greedIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21295EDC1B9FBEF500B34556 /* Debug */,
+				21295EDD1B9FBEF500B34556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21295EDE1B9FBEF500B34556 /* Build configuration list for PBXNativeTarget "greedIslandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21295EDF1B9FBEF500B34556 /* Debug */,
+				21295EE01B9FBEF500B34556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21295EB01B9FBEF500B34556 /* Project object */;
+}
